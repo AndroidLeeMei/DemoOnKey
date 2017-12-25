@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/angry_bird_icon1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="《卡提諾狂新聞》因嘲諷時事議題，受到網友喜愛，不過最近妙禪事件吵得沸沸揚揚，狂新聞卻噤聲不提，現在有網友爆料，原因就是老闆也是妙禪信徒！
+
+檢視相片
+▲佛教如來宗創辦人妙禪。（圖／翻攝自佛教如來宗網站）
+
+一名網友25日在臉書專頁「反妙禪」爆料，「關於卡提諾狂新聞為何不播報seafood，因為老闆本身就是sea兄」，並附上「佛教如來宗」網站上的見證文，該信徒伍X安是「派銳數位科技有限公司」的負責人；而經營卡提諾狂新聞的「網鈺數位科技有限公司」，負責人登記為伍X強，巧合的是，這兩家公司地址都登記台北市內湖同一處。
+
+該篇見證文中寫道「我是伍ＸＸ，今年37歲，是國內網路業公司的負責人兼執行長。在中部家族裡身為長子長孫，我是個標準大少爺，叛逆不守規矩、自我又自大…」透露前妻在他人生最失意時，說要介紹他認識妙禪，「當時只記得每天禪定5分鐘就腰酸背痛，法會都很昏沉，醒著時都在等趕快結束。可是感恩師父，我在進入如來正法班法會中看著法台上的師父，我突然淚流滿面、痛哭失聲...」他從此追隨師父依教奉行。
+
+檢視相片
+▲卡提諾狂新聞老闆被爆是妙禪信徒。（圖／翻攝自卡提諾狂新聞臉書）
+
+網友爆料文在網路上掀起熱議，紛紛留言「果然狂」、「狂新聞 狂色→藍色→紫色」、「難怪完全不見seafood蹤影」、「狂新聞乾脆收一收，下禮拜直接開個妙師父禪新聞」。
+
+更多三立新聞網報導
+女大生被退會 帶警向妙禪要錢討不回
+調查局查妙禪夫婦 上億善款涉逃漏稅
+妙禪接受供養惹議！江淑娜首出面發聲"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</ScrollView>

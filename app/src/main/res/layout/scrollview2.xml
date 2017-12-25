@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ScrollView
+    android:layout_width="350dp" android:layout_height="250dp">
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="400px"
+        android:text="關於杜仲教學\n
+著作或專欄\n
+1.	杜建志、林新德，SCJP國際認證教本程式設計入門，學貫出版社，民國96年7月。
+2.	杜建志，Windows Vista應用大師，學貫出版社，民國97年6月。
+3.	專利:自動播放視訊之零錢勸募機(案號:新型第M351569號)
+4.	專利:水陸兩用附拖車之水上機車(案號:新型第M396245號)
+5.	專利:組合式液晶顯示鍵盤(案號:新型第M384351號)
+6.	專利:數位相機自動提示物品期限顯示系統(案號:新型第M377017號)
+
+\n
+證照1.	中華民國教育部助理教授證
+2.	中華民國教育部講師證(講字第098460號)
+3.	SunMicrosystems SAI原廠講師授課證書
+4.	MicroSoft MOS微軟國際認證考試試場監評人員證書
+5.	Sun Certified JAVA Programmer (SCJP)
+6.	Cisco Certified Network Associate (CCNA)
+7.	Linux Professional Institute Certification (LPI Level-1)
+8.	CIW v5 ASSOCIATE
+9.	CIW PROFESSIONAL
+10.	CIW SECURITY ANALYST
+11.	CIW CERTIFIED INSTRUCTOR
+12.	MICROSOFT MCTS: SQL2005
+13.	Adobe Visual Communication using Adobe Photoshop CS3
+14.	Adobe Web Communication using Adobe Dreamweaver CS3
+15.	Adobe Rich Media Communication using Adobe Flash CS3
+16.	Microsoft® Certified Application Specialist for Office Excel 2007
+17.	Microsoft® Certified Application Specialist for Office Word 2007
+18.	Microsoft® Certified Application Specialist for Office PowerPoint 2007
+19.	Microsoft® Certified Application Specialist for Office Access 2007
+20.	Microsoft® Certified Application Specialist for Office Outlook 2007
+21.	Microsoft® Certified Application Specialist for Office Word 2003
+22.	經濟部ITE資訊專業人員鑑定網路通訊類:區域網路
+23.	Techficiency Quotient Certification EC 專業級認證
+24.	Techficiency Quotient Certification Dreamweaver MX 2004 專業級認證
+25.	Techficiency Quotient Certification Word 2003 專業級認證
+26.	Techficiency Quotient Certification Excel 2003 專業級認證
+27.	Techficiency Quotient Certification Access 2003 專業級認證
+28.	Techficiency Quotient Certification PowerPoint 2003 專業級認證"
+        android:textSize="10pt"
+        android:visibility="visible" />
+</ScrollView>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="600px"
+            android:text="關於杜仲教學\n
+著作或專欄\n
+1.	杜建志、林新德，SCJP國際認證教本程式設計入門，學貫出版社，民國96年7月。
+2.	杜建志，Windows Vista應用大師，學貫出版社，民國97年6月。
+3.	專利:自動播放視訊之零錢勸募機(案號:新型第M351569號)
+4.	專利:水陸兩用附拖車之水上機車(案號:新型第M396245號)
+5.	專利:組合式液晶顯示鍵盤(案號:新型第M384351號)
+6.	專利:數位相機自動提示物品期限顯示系統(案號:新型第M377017號)
+
+\n
+證照1.	中華民國教育部助理教授證
+2.	中華民國教育部講師證(講字第098460號)
+3.	SunMicrosystems SAI原廠講師授課證書
+4.	MicroSoft MOS微軟國際認證考試試場監評人員證書
+5.	Sun Certified JAVA Programmer (SCJP)
+6.	Cisco Certified Network Associate (CCNA)
+7.	Linux Professional Institute Certification (LPI Level-1)
+8.	CIW v5 ASSOCIATE
+9.	CIW PROFESSIONAL
+10.	CIW SECURITY ANALYST
+11.	CIW CERTIFIED INSTRUCTOR
+12.	MICROSOFT MCTS: SQL2005
+13.	Adobe Visual Communication using Adobe Photoshop CS3
+14.	Adobe Web Communication using Adobe Dreamweaver CS3
+15.	Adobe Rich Media Communication using Adobe Flash CS3
+16.	Microsoft® Certified Application Specialist for Office Excel 2007
+17.	Microsoft® Certified Application Specialist for Office Word 2007
+18.	Microsoft® Certified Application Specialist for Office PowerPoint 2007
+19.	Microsoft® Certified Application Specialist for Office Access 2007
+20.	Microsoft® Certified Application Specialist for Office Outlook 2007
+21.	Microsoft® Certified Application Specialist for Office Word 2003
+22.	經濟部ITE資訊專業人員鑑定網路通訊類:區域網路
+23.	Techficiency Quotient Certification EC 專業級認證
+24.	Techficiency Quotient Certification Dreamweaver MX 2004 專業級認證
+25.	Techficiency Quotient Certification Word 2003 專業級認證
+26.	Techficiency Quotient Certification Excel 2003 專業級認證
+27.	Techficiency Quotient Certification Access 2003 專業級認證
+28.	Techficiency Quotient Certification PowerPoint 2003 專業級認證"
+            android:textSize="10pt"
+            android:visibility="visible" />
+    </HorizontalScrollView>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Button" />
+
+</LinearLayout>
